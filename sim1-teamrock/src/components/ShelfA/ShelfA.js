@@ -12,8 +12,13 @@ class ShelfA extends Component{
     render() {
       return (
         <div>
-          <h1><Bin1/><Bin2/><Bin3/><Bin4/><Bin5/></h1>
-         
+          <span><Bin1/></span>
+          <span><Bin2/></span>
+          <span><Bin3/></span>
+          <span><Bin4/></span>
+          <span><Bin5/></span>
+          
+          
         </div>
       );
     }
