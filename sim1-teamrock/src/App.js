@@ -4,6 +4,8 @@ import ShelfA from './components/ShelfA/ShelfA.js';
 import ShelfB from './components/ShelfB/ShelfB.js';
 import ShelfC from './components/ShelfC/ShelfC.js';
 import ShelfD from './components/ShelfD/ShelfD.js';
+import router from './router.js';
+import {Link} from 'react-router-dom';
 
 
 class App extends Component {
@@ -11,11 +13,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <h1 className="shelfie">SHELFIE</h1>
-        <span className="shelfA"><ShelfA/></span>
-        <span className="shelfB"><ShelfB/></span>
-        <span className="shelfC"><ShelfC/></span>
-        <span className="shelfD"><ShelfD/></span>
+        {router}
+        <div className="boxes">
+        <div className="shelfA"><Link to='Bins/A'>ShelfA</Link></div>
+        <div className="shelfB"><Link to='Bins/A'>ShelfB</Link></div>
+        <div className="shelfC"><Link to='Bins/A'>ShelfC</Link></div>
+        <div className="shelfD"><Link to='Bins/A'>ShelfD</Link></div>
+        </div>
       </div>
     );
   }
