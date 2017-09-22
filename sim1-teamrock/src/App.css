@@ -1,42 +1,53 @@
 .App {
   text-align: center;
 }
-.shelfie{
-  width:100%;
-  height:100px;
+
+.header{
+  display: flex;
   background-color: #AB2A19;
   color:white;
-  
-}
-.boxes {
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-direction: column;
   flex-direction: column;
-  margin-top: 20px;
-}
-.shelfA {
-  display: flex;
- font-size: 40px;
-}
-
-.shelfB {
-  display: flex;
-  font-size: 40px;
-}
+  align-items: center;
+  justify-content: center;
+  font-size: 200%;
   
-
-
-.shelfC {
-  display: flex;
-  font-size: 40px;
-
   
 }
-
-.shelfD {
+.logo {
+  color:white;
+  float: left;
+}
+.shelfie{
+  
   display: flex;
-  font-size: 40px;
+  color:white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   
 }
+
+.shelfContainer {
+  
+  height: 50vh;
+  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.shelf {
+  font-size: 30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 7vh;
+  width: 30vw;
+  border: solid white 10px;
+  background-color: #D34735;
+}
+
