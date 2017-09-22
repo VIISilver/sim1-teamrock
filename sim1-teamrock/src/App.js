@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>SHELFIE</h1>
+        <h1 className="shelfie">SHELFIE</h1>
         <span className="shelfA"><ShelfA/></span>
         <span className="shelfB"><ShelfB/></span>
         <span className="shelfC"><ShelfC/></span>
