@@ -3,23 +3,40 @@
 }
 .shelfie{
   width:100%;
-  height:30px;
-  background-color: #000000;
+  height:100px;
+  background-color: #AB2A19;
+  color:white;
   
 }
-
+.boxes {
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 20px;
+}
 .shelfA {
- 
+  display: flex;
+ font-size: 40px;
 }
 
 .shelfB {
-  
+  display: flex;
+  font-size: 40px;
 }
+  
+
 
 .shelfC {
+  display: flex;
+  font-size: 40px;
+
   
 }
 
 .shelfD {
+  display: flex;
+  font-size: 40px;
   
 }
