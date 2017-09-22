@@ -13,9 +13,9 @@ class App extends Component {
       <div className="App">
         <h1>SHELFIE</h1>
         <span className="shelfA"><ShelfA/></span>
-        <span className="shelfA"><ShelfB/></span>
-        <span className="shelfA"><ShelfC/></span>
-        <span className="shelfA"><ShelfD/></span>
+        <span className="shelfB"><ShelfB/></span>
+        <span className="shelfC"><ShelfC/></span>
+        <span className="shelfD"><ShelfD/></span>
       </div>
     );
   }
