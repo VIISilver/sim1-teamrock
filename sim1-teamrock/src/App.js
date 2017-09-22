@@ -12,10 +12,10 @@ class App extends Component {
     return (
       <div className="App">
         <h1>SHELFIE</h1>
-        <span><ShelfA/></span>
-        <span><ShelfB/></span>
-        <span><ShelfC/></span>
-        <span><ShelfD/></span>
+        <span className="shelfA"><ShelfA/></span>
+        <span className="shelfA"><ShelfB/></span>
+        <span className="shelfA"><ShelfC/></span>
+        <span className="shelfA"><ShelfD/></span>
       </div>
     );
   }
